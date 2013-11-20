@@ -52,7 +52,7 @@ function load_some() {
         break
         ;;
       *)
-        echo "Please choose y or n."
+        echo "Please choose Y or N."
         ;;
       esac
     done
@@ -75,7 +75,7 @@ function install_formulas() {
       break
       ;;
     *)
-      echo "Please choose y or n."
+      echo "Please choose Y or N."
       ;;
     esac
   done
