@@ -3,4 +3,4 @@
 #
 
 install vim
-install vimpager
+#install vimpager

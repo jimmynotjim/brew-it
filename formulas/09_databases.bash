@@ -2,6 +2,6 @@
 # databases
 #
 
-install redis
-install riak
+#install redis
+#install riak
 install sqlite3

@@ -2,19 +2,19 @@
 # utilities
 #
 
-install ag
-install ctags
+#install ag
+#install ctags
 install imagemagick
 install jpeg
-install lnav
-install pcre
-install reattach-to-user-namespace
+#install lnav
+#install pcre
+#install reattach-to-user-namespace
 install terminal-notifier
-install tmux
+#install tmux
 install tree
-install watch
+#install watch
 install wget
 
 # irc / instant message
-install bitlbee
-install znc
+#install bitlbee
+#install znc

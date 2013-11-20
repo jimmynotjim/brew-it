@@ -3,4 +3,4 @@
 #
 
 install git
-install mercurial
+#install mercurial
