@@ -105,6 +105,12 @@ cask install virtualbox
 # Utilities
 #
 
+#http://www.macbartender.com/
+cask install bartender
+
+#http://macpaw.com/cleanmymac
+cask install cleanmymac
+
 #https://cloudup.com/
 #cask install cloudup
 
@@ -114,8 +120,17 @@ cask install cloudapp
 #http://mattpatenaude.com/
 cask install colors
 
+#http://www.daisydiskapp.com/
+cask install daisydisk
+
 #http://mizage.com/divvy/
 #cask install divvy
+
+#http://liondiskmaker.com/
+cask install diskmaker-x
+
+#http://justgetflux.com/
+cask install flux
 
 #http://gfx.io/
 cask install gfxcardstatus
@@ -125,6 +140,9 @@ cask install gfxcardstatus
 
 #http://marked2app.com/
 cask install marked2
+
+#http://quickcast.io/
+cask install quickcast
 
 #http://screenhero.com/
 cask install screenhero
@@ -140,6 +158,9 @@ cask install spectacle
 
 #http://totalfinder.binaryage.com/
 #cask install totalfinder
+
+#http://totalterminal.binaryage.com/
+cask install totalterminal
 
 #http://iconfactory.com/software/xscope
 cask install xscope
@@ -192,6 +213,9 @@ cask install handbrake
 
 #http://inkscape.org/
 #cask install inkscape
+
+#http://www.libreoffice.org/
+cask install libreoffice
 
 #http://mailplaneapp.com/
 #cask install mailplane
