@@ -139,7 +139,7 @@ cask install gfxcardstatus
 #cask install growlnotify
 
 #http://marked2app.com/
-cask install marked2
+#cask install marked2
 
 #http://quickcast.io/
 cask install quickcast
@@ -192,6 +192,9 @@ cask install opera
 
 #https://adium.im/
 cask install adium
+
+#http://www.airserver.com/
+airserver
 
 #http://calibre-ebook.com/
 cask install calibre
