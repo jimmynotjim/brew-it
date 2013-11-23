@@ -11,6 +11,8 @@ test ! -w /usr/local/Library/brew.rb &&
       [yY])
         echo "Installing Homebrew"
         ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+        echo "Updating Homebrew"
+        brew update
         break
         ;;
       [nN])
