@@ -11,6 +11,9 @@
 cask install alfred
 cask alfred link
 
+#http://asepsis.binaryage.com
+cask install asepsis
+
 #https://www.dropbox.com/
 cask install dropbox
 
