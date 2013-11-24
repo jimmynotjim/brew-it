@@ -199,6 +199,9 @@ cask install opera
 #https://adium.im/
 cask install adium
 
+#http://airmailapp.com/beta
+cask install airmail-beta
+
 #http://www.airserver.com/
 cask install airserver
 
@@ -239,7 +242,7 @@ cask install rdio
 cask install skype
 
 #http://sparrowmailapp.com/mac.php
-cask install sparrow
+#cask install sparrow
 
 #https://www.spotify.com/us/
 #cask install spotify
