@@ -197,7 +197,7 @@ cask install opera
 cask install adium
 
 #http://www.airserver.com/
-airserver
+cask install airserver
 
 #http://calibre-ebook.com/
 cask install calibre
