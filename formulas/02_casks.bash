@@ -141,6 +141,9 @@ cask install gfxcardstatus
 #http://growl.info/downloads
 #cask install growlnotify
 
+#http://www.knocktounlock.com/
+cask install knock
+
 #http://marked2app.com/
 #cask install marked2
 
