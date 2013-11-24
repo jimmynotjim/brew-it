@@ -132,6 +132,9 @@ cask install daisydisk
 #http://liondiskmaker.com/
 cask install diskmaker-x
 
+#http://justgetflux.com/
+cask install f-lux
+
 #http://gfx.io/
 cask install gfxcardstatus
 
