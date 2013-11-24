@@ -242,5 +242,5 @@ cask install sparrow
 #cask install spotify
 
 #http://www.utorrent.com/
-cask install u-torrent
+cask install utorrent
 
