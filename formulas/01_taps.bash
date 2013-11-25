@@ -14,3 +14,6 @@ install brew-cask
 
 # caskroom versions
 tap caskroom/versions
+
+# cask-legacy
+tap jimmynotjim/casklegacy

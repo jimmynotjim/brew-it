@@ -98,10 +98,10 @@ cask install transmit
 cask install tower
 
 #http://www.vagrantup.com/
-cask install vagrant
+cask install vagrant-1-2
 
 #https://www.virtualbox.org/
-cask install virtualbox
+cask install virtualbox-2-4
 
 
 #
