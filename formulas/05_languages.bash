@@ -48,19 +48,19 @@ unlink  php54
 install php53 --without-pear --without-apache --with-pgsql --with-fpm --with-intl
 unlink  php53
 
+# python
+install python
+
 # ruby
 install chruby
 
-install ruby
-unlink  ruby
+install ruby-install
 
-install ruby192
-unlink  ruby192
+ruby-install ruby
+ruby-install ruby 1.9.2
+ruby-install ruby 1.9.3
 
-install ruby193
-unlink  ruby193
-
-install ruby-build
+chruby ruby-2.0
 
 # rust
 #install rust
