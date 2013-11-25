@@ -2,6 +2,7 @@
 # utilities
 #
 
+install ansible
 #install ag
 #install ctags
 install imagemagick
