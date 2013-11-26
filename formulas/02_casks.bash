@@ -241,6 +241,9 @@ cask install mou
 #http://www.rdio.com/
 cask install rdio
 
+#http://www.bohemiancoding.com/sketch/
+cask install sketch
+
 #http://www.skype.com/en/
 cask install skype
 
