@@ -211,6 +211,9 @@ cask install calibre
 #http://www.mediaatelier.com/CheatSheet/
 cask install cheatsheet
 
+#http://kapeli.com/dash
+cask install dash
+
 #http://limechat.net/mac/
 #cask install limechat
 
