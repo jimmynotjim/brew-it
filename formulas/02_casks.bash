@@ -120,6 +120,9 @@ cask install cleanmymac
 #http://getcloudapp.com/
 cask install cloudapp
 
+#http://www.coconut-flavour.com/
+cask install coconutbattery
+
 #http://mattpatenaude.com/
 cask install colors
 
