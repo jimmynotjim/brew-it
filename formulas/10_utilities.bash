@@ -4,6 +4,7 @@
 
 install ansible
 #install ag
+install cdrtools
 #install ctags
 install imagemagick
 install jpeg
