@@ -89,7 +89,7 @@ cask install sequel-pro
 #cask install sourcetree
 
 #http://www.sublimetext.com/3
-cask install sublime-text-3
+cask install sublime-text3
 
 #http://panic.com/transmit/
 cask install transmit
@@ -101,7 +101,7 @@ cask install tower
 cask install vagrant
 
 #https://www.virtualbox.org/
-cask install virtualbox-2-4
+cask install virtualbox-4-2
 
 
 #
@@ -116,9 +116,6 @@ cask install cleanmymac
 
 #https://cloudup.com/
 #cask install cloudup
-
-#http://getcloudapp.com/
-cask install cloudapp
 
 #http://www.coconut-flavour.com/
 cask install coconutbattery
@@ -136,7 +133,7 @@ cask install daisydisk
 cask install diskmaker-x
 
 #http://justgetflux.com/
-cask install f-lux
+cask install flux
 
 #http://gfx.io/
 cask install gfxcardstatus
@@ -203,7 +200,7 @@ cask install opera
 cask install adium
 
 #http://airmailapp.com/beta
-cask install airmail-beta
+cask install airmail
 
 #http://www.airserver.com/
 cask install airserver
