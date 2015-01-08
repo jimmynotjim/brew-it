@@ -24,7 +24,7 @@ cask install onepassword
 cask install google-chrome
 
 #https://lastpass.com/
-#cask install lastpass-universal
+#cask install lastpass
 
 #http://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html
 cask install superduper
@@ -68,7 +68,7 @@ cask install livereload
 #cask install macvim
 
 #http://www.mysql.com/products/workbench/
-#cask install mysql-workbench
+#cask install mysqlworkbench
 
 #https://github.com/rogerwang/node-webkit
 #cask install node-webkit
@@ -99,9 +99,6 @@ cask install tower
 
 #http://www.vagrantup.com/
 cask install vagrant
-
-#https://www.virtualbox.org/
-cask install virtualbox-4-2
 
 
 #
@@ -145,7 +142,7 @@ cask install gfxcardstatus
 cask install knock
 
 #http://marked2app.com/
-#cask install marked2
+#cask install marked
 
 #http://quickcast.io/
 cask install quickcast
@@ -200,7 +197,7 @@ cask install opera
 cask install adium
 
 #http://airmailapp.com/beta
-cask install airmail
+cask install airmail-beta
 
 #http://www.airserver.com/
 cask install airserver

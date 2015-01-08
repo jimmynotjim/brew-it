@@ -5,9 +5,6 @@
 # clojure
 #install leiningen
 
-# dart
-#install dart
-
 # erlang
 #install erlang
 #install elixir
