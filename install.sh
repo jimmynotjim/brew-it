@@ -23,12 +23,12 @@ test ! -w /usr/local/Library/brew.rb &&
     esac
   done
 
-#echo "Searching for existing .brewrc"
-#test -w $HOME/.brewrc &&
-#  cp $HOME/.brewrc $HOME/.brewrc.bak &&
-#  echo "Your original .brewrc has been backed up to .brewrc.bak"
+echo "Searching for existing .brewrc"
+test -w $HOME/.brewrc &&
+  cp $HOME/.brewrc $HOME/.brewrc.bak &&
+  echo "Your original .brewrc has been backed up to .brewrc.bak"
 
-#cp $HOME/.brew_it/template/brewrc.template.bash $HOME/.brewrc
+cp $HOME/.brew_it/template/brewrc.template.bash $HOME/.brewrc
 
 function load_all() {
   for src in $BREW_IT/formulas/*;
@@ -62,7 +62,6 @@ function load_some() {
 }
 
 function verify_formula() {
-  #echo ${line}
   IFS=', ' read -a args <<< "$line"
   cmd=${args[0]}
   p=${args[1]}
@@ -143,7 +142,7 @@ do
     break
     ;;
   all)
-#    load_all
+    load_all
     install_formulas
     break
     ;;
