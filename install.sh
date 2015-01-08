@@ -67,9 +67,16 @@ function install_formulas() {
     read -p "Completed building .brewrc, ready to install your formulas (Select NO to review your .brewrc) [Y/N] " RESP
     case $RESP in
     [yY])
-      brew bundle $HOME/.brewrc
+      while read line;
+      do
+        line=${line%%#*}
+        if [ "$line" = "" ];then
+          continue
+        fi
+        brew ${line};
+      done < $HOME/.brewrc
       echo "Installation is complete, enjoy your new machine!"
-      break
+        break
       ;;
     [nN])
       echo "Quitting installation, review and run \"brew bundle ~/.brewrc\" when you are ready to install."
