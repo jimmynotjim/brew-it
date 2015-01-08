@@ -23,12 +23,12 @@ test ! -w /usr/local/Library/brew.rb &&
     esac
   done
 
-echo "Searching for existing .brewrc"
-test -w $HOME/.brewrc &&
-  cp $HOME/.brewrc $HOME/.brewrc.bak &&
-  echo "Your original .brewrc has been backed up to .brewrc.bak"
+#echo "Searching for existing .brewrc"
+#test -w $HOME/.brewrc &&
+#  cp $HOME/.brewrc $HOME/.brewrc.bak &&
+#  echo "Your original .brewrc has been backed up to .brewrc.bak"
 
-cp $HOME/.brew_it/template/brewrc.template.bash $HOME/.brewrc
+#cp $HOME/.brew_it/template/brewrc.template.bash $HOME/.brewrc
 
 function load_all() {
   for src in $BREW_IT/formulas/*;
@@ -61,6 +61,43 @@ function load_some() {
   done
 }
 
+function verify_formula() {
+  #echo ${line}
+  IFS=', ' read -a args <<< "$line"
+  cmd=${args[0]}
+  p=${args[1]}
+
+  if [ "$cmd" = "brew" ]; then
+    cmd=${args[1]}
+    p=${args[2]}
+  fi
+  if [ "$cmd" = "tap" ]; then
+    verify=true
+  elif [ "$cmd" = "install" ]; then
+    brew info $p > /dev/null 2> /dev/null
+
+    if [ "$?" = 0 ];then
+      verify=true
+    else
+      verify=false
+    fi
+  elif [ "$cmd" = "cask" ]; then
+    cmd=${args[1]}
+    p=${args[2]}
+    if [ "$cmd" = "alfred" ]; then
+      verify=true
+    else
+      brew cask info $p > /dev/null 2> /dev/null
+
+      if [ "$?" = 0 ];then
+        verify=true
+      else
+        verify=false
+      fi
+    fi
+  fi
+}
+
 function install_formulas() {
   while true
   do
@@ -73,7 +110,12 @@ function install_formulas() {
         if [ "$line" = "" ];then
           continue
         fi
-        brew ${line};
+        verify_formula line
+        if [ "$verify" = true ]; then
+          brew ${line}
+        else
+          echo "package missing: $p"
+        fi
       done < $HOME/.brewrc
       echo "Installation is complete, enjoy your new machine!"
         break
@@ -101,7 +143,7 @@ do
     break
     ;;
   all)
-    load_all
+#    load_all
     install_formulas
     break
     ;;
