@@ -74,6 +74,7 @@ function write_brewfile {
       ;;
     none)
       echo "Exiting"
+      exit
       break
       ;;
     *)
