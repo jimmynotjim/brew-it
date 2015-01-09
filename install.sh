@@ -145,8 +145,7 @@ function install_formulas() {
     formula_exists=$?
 
     if [ "$formula_exists" = 0 ]; then
-      echo ${p}
-      #brew ${line}
+      brew ${line}
     else
       echo "package missing: $p"
     fi
