@@ -96,7 +96,7 @@ function review_brewfile() {
       break
       ;;
     [nN])
-      echo "Quitting installation, review and rerun when you're ready to install (and respond yes when prompted to install from existing .brewrc)."
+      echo "Quitting installation, review and rerun install script when ready (respond yes when prompted to install from existing .brewrc)."
       open -e .brewrc
       exit
       break
