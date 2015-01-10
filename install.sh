@@ -65,10 +65,12 @@ function write_brewfile {
     case $RESP
     in
     some)
+      create_brewfile
       load_some
       break
       ;;
     all)
+      create_brewfile
       load_all
       break
       ;;
@@ -202,7 +204,6 @@ if [ "$brewfile_exists" = 0 ]; then
       ;;
     [nN])
       backup_brewfile
-      create_brewfile
       write_brewfile
       review_brewfile
       install_formulas
@@ -214,7 +215,6 @@ if [ "$brewfile_exists" = 0 ]; then
     esac
   done
 else
-  create_brewfile
   write_brewfile
   review_brewfile
   install_formulas
