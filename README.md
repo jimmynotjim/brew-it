@@ -50,7 +50,7 @@ Brew It is Copyright &copy; 2012-2015 James Wilson, released under the [MIT lice
 
 ## Version
 
-Latest version is 0.2.0 and may be unstable. Make sure to view [the changelog][4] before updating. If you find errors, please repot them to the [issues page].
+The latest stable version is 0.3.0. Make sure to view [the changelog][4] before updating. If you find errors, please repot them to the [issues page].
 
 
 ## Author

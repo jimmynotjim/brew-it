@@ -12,6 +12,12 @@ And constructed with these guidelines:
 
 For more information on semantic versioning, please visit http://semver.org/.
 
+## v0.3.0 - January 9, 2015
+
+- Modularized tasks and checkers into individual functions for cleaner code and easier reuse
+- Added option to install from existing `.brewrc`
+- Don't overwrite existing `.brewrc` unless user begins loading formulas
+
 ## v0.2.0 - January 8, 2015
 
 - Swapped `brew bundle` for bash command
