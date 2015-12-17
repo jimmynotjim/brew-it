@@ -4,4 +4,4 @@
 
 #install redis
 #install riak
-install sqlite3
+#install sqlite3

@@ -3,4 +3,4 @@
 #
 
 # finally this has been bottled
-install phantomjs
+#install phantomjs

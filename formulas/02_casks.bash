@@ -69,6 +69,9 @@ cask install imageoptim
 #http://www.mysql.com/products/workbench/
 #cask install mysqlworkbench
 
+#https://github.com/rogerwang/node-webkit
+#cask install node-webkit
+
 #http://www.pgadmin.org/
 #cask install pgadmin3
 
@@ -94,7 +97,7 @@ cask install sublime-text3
 #cask install tower
 
 #http://www.vagrantup.com/
-cask install vagrant
+#cask install vagrant
 
 
 #
@@ -111,13 +114,13 @@ cask install bartender
 #cask install cloudup
 
 #http://www.coconut-flavour.com/
-#cask install coconutbattery
+cask install coconutbattery
 
 #http://mattpatenaude.com/
 #cask install colors
 
 #http://www.daisydiskapp.com/
-cask install daisydisk
+#cask install daisydisk
 
 #http://mizage.com/divvy/
 #cask install divvy
@@ -125,7 +128,7 @@ cask install daisydisk
 #http://liondiskmaker.com/
 #cask install diskmaker-x
 
-#http://flexibits.com/fantastical
+#https://flexibits.com/fantastical
 cask install fantastical
 
 #http://justgetflux.com/
@@ -196,7 +199,7 @@ cask install spectacle
 #cask install cheatsheet
 
 #http://kapeli.com/dash
-cask install dash
+#cask install dash
 
 #http://limechat.net/mac/
 #cask install limechat
@@ -214,7 +217,7 @@ cask install dash
 #cask install inkscape
 
 #http://www.libreoffice.org/
-cask install libreoffice
+#cask install libreoffice
 
 #http://mailplaneapp.com/
 #cask install mailplane
@@ -226,11 +229,10 @@ cask install libreoffice
 cask install sketch
 
 #http://www.skype.com/en/
-cask install skype
+#cask install skype
 
 #https://www.spotify.com/us/
 cask install spotify
 
 #http://www.utorrent.com/
 #cask install utorrent
-

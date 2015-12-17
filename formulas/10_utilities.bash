@@ -2,9 +2,9 @@
 # utilities
 #
 
-install ansible
+#install ansible
 #install ag
-install cdrtools
+#install cdrtools
 #install ctags
 install imagemagick
 install jpeg
@@ -13,9 +13,9 @@ install jpeg
 #install reattach-to-user-namespace
 install terminal-notifier
 #install tmux
-install tree
+#install tree
 #install watch
-install wget
+#install wget
 
 # irc / instant message
 #install bitlbee

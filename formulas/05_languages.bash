@@ -27,10 +27,6 @@
 
 # node
 install node
-unlink  node
-
-install homebrew/versions/node08
-unlink  node08
 
 # ocaml
 #install ocaml
@@ -39,9 +35,9 @@ unlink  node08
 install python
 
 # ruby
-install chruby
+#install chruby
 
-install ruby-install
+#install ruby-install
 
 # rust
 #install rust
