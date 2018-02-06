@@ -29,6 +29,8 @@ cask install google-chrome
 cask install superduper
 
 
+cask install encryptme
+
 #
 # Development
 #
@@ -120,13 +122,16 @@ cask install coconutbattery
 #cask install colors
 
 #http://www.daisydiskapp.com/
-#cask install daisydisk
+cask install daisydisk
 
 #http://mizage.com/divvy/
 #cask install divvy
 
 #http://liondiskmaker.com/
 #cask install diskmaker-x
+
+#https://www.duetdisplay.com/
+cask install duet
 
 #https://flexibits.com/fantastical
 cask install fantastical
@@ -233,3 +238,10 @@ cask install sketch
 
 #http://www.utorrent.com/
 #cask install utorrent
+
+#https://playbeta.pocketcasts.com/
+cask install pocket-casts
+
+#http://stellarium.org/
+cask install stellarium
+
