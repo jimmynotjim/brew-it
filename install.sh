@@ -2,7 +2,7 @@ BREW_IT="$HOME/.brew_it"
 
 function check_for_homebrew() {
   echo "Checking usr/local for Homebrew"
-  test -e /usr/local/Library/brew.rb
+  test -e /usr/local/Homebrew/bin/brew
   return $?
 }
 

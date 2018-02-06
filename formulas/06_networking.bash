@@ -2,7 +2,7 @@
 # networking
 #
 
-install fping
+#install fping
 #install netcat
 #install ngrep
 #install nmap

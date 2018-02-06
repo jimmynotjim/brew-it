@@ -88,7 +88,7 @@ cask install imageoptim
 #cask install sourcetree
 
 #http://www.sublimetext.com/3
-cask install sublime-text3
+cask install sublime-text
 
 #http://panic.com/transmit/
 #cask install transmit
@@ -132,7 +132,7 @@ cask install coconutbattery
 cask install fantastical
 
 #http://justgetflux.com/
-cask install flux
+#cask install flux
 
 #http://gfx.io/
 #cask install gfxcardstatus
@@ -141,13 +141,10 @@ cask install flux
 #cask install growlnotify
 
 #http://www.knocktounlock.com/
-cask install knock
+#cask install knock
 
 #http://marked2app.com/
 #cask install marked
-
-#http://screenhero.com/
-cask install screenhero
 
 #http://www.irradiatedsoftware.com/sizeup/
 #cask install sizeup
@@ -232,7 +229,7 @@ cask install sketch
 #cask install skype
 
 #https://www.spotify.com/us/
-cask install spotify
+#cask install spotify
 
 #http://www.utorrent.com/
 #cask install utorrent

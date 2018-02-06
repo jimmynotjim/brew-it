@@ -32,7 +32,7 @@ install node
 #install ocaml
 
 # python
-install python
+#install python
 
 # ruby
 #install chruby
