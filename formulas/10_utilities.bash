@@ -2,21 +2,21 @@
 # utilities
 #
 
-#install ansible
-#install ag
-#install cdrtools
-#install ctags
-install imagemagick
-install jpeg
-#install lnav
-#install pcre
-#install reattach-to-user-namespace
-install terminal-notifier
-#install tmux
-#install tree
-#install watch
-#install wget
+#brew 'ansible'
+#brew 'ag'
+#brew 'cdrtools'
+#brew 'ctags'
+brew 'imagemagick'
+brew 'jpeg'
+#brew 'lnav'
+#brew 'pcre'
+#brew 'reattach-to-user-namespace'
+brew 'terminal-notifier'
+#brew 'tmux'
+#brew 'tree'
+#brew 'watch'
+#brew 'wget'
 
 # irc / instant message
-#install bitlbee
-#install znc
+#brew 'bitlbee'
+#brew 'znc'

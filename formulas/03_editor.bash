@@ -2,5 +2,5 @@
 # editor / pager
 #
 
-#install vim
-#install vimpager
+#brew 'vim'
+#brew 'vimpager'

@@ -2,9 +2,9 @@
 # networking
 #
 
-#install fping
-#install netcat
-#install ngrep
-#install nmap
-#install stunnel
-#install tcpdump
+#brew 'fping'
+#brew 'netcat'
+#brew 'ngrep'
+#brew 'nmap'
+#brew 'stunnel'
+#brew 'tcpdump'

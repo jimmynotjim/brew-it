@@ -8,98 +8,99 @@
 #
 
 #http://www.alfredapp.com/
-cask install alfred
+cask 'alfred'
 
 #http://www.code42.com/crashplan/
-cask install crashplan
+cask 'crashplan'
 
 #https://www.dropbox.com/
-cask install dropbox
+cask 'dropbox'
+
+#https://encrypt.me/
+cask 'encryptme'
 
 #https://agilebits.com/onepassword
-cask install 1password
+cask '1password'
 
 #https://www.google.com/intl/en/chrome/browser/
-cask install google-chrome
+cask 'google-chrome'
 
 #https://lastpass.com/
-#cask install lastpass
+#cask 'lastpass'
 
 #http://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html
-cask install superduper
+cask 'superduper'
 
-
-cask install encryptme
 
 #
 # Development
 #
 
 #http://sourcegear.com/diffmerge/
-#cask install diffmerge
+#cask 'diffmerge'
 
 #http://cord.sourceforge.net/
-#cask install cord
+#cask 'cord'
 
 #http://cyberduck.ch/
-#cask install cyberduck
+#cask 'cyberduck'
 
 #https://filezilla-project.org/
-#cask install filezilla
+#cask 'filezilla'
 
 #https://toolbelt.heroku.com/
-#cask install heroku-toolbelt
+#cask 'heroku-toolbelt'
 
 #http://iterm.sourceforge.net/
-#cask install iterm2
+#cask 'iterm2'
 
 #http://imageoptim.com/
-cask install imageoptim
+cask 'imageoptim'
 
 #http://www.kaleidoscopeapp.com/
-#cask install kaleidoscope
+#cask 'kaleidoscope'
 
 #http://www.kaleidoscopeapp.com/ksdiff2
-#cask install ksdiff
+#cask 'ksdiff'
 
 #http://livereload.com/
-#cask install livereload
+#cask 'livereload'
 
 #http://www.vim.org/
-#cask install macvim
+#cask 'macvim'
 
 #http://www.mysql.com/products/workbench/
-#cask install mysqlworkbench
+#cask 'mysqlworkbench'
 
 #https://github.com/rogerwang/node-webkit
-#cask install node-webkit
+#cask 'node-webkit'
 
 #http://www.pgadmin.org/
-#cask install pgadmin3
+#cask 'pgadmin3'
 
 #http://postgresapp.com/
-#cask install postgres
+#cask 'postgres'
 
 #http://robomongo.org/
-#cask install robomongo
+#cask 'robomongo'
 
 #http://www.sequelpro.com/
-#cask install sequel-pro
+#cask 'sequel-pro'
 
 #http://www.sourcetreeapp.com/
-#cask install sourcetree
+#cask 'sourcetree'
 
 #http://www.sublimetext.com/3
-cask install sublime-text
+cask 'sublime-text'
 
 #http://panic.com/transmit/
-#cask install transmit
+#cask 'transmit'
 
 #http://www.git-tower.com/
-#cask install tower
+#cask 'tower'
 
 #http://www.vagrantup.com/
-#cask install vagrant
+#cask 'vagrant'
 
 
 #
@@ -107,61 +108,61 @@ cask install sublime-text
 #
 
 #http://www.macbartender.com/
-cask install bartender
+cask 'bartender'
 
 #http://macpaw.com/cleanmymac
-#cask install cleanmymac
+#cask 'cleanmymac'
 
 #https://cloudup.com/
-#cask install cloudup
+#cask 'cloudup'
 
 #http://www.coconut-flavour.com/
-cask install coconutbattery
+cask 'coconutbattery'
 
 #http://mattpatenaude.com/
-#cask install colors
+#cask 'colors'
 
 #http://www.daisydiskapp.com/
-cask install daisydisk
+cask 'daisydisk'
 
 #http://mizage.com/divvy/
-#cask install divvy
+#cask 'divvy'
 
 #http://liondiskmaker.com/
-#cask install diskmaker-x
+#cask 'diskmaker-x'
 
 #https://www.duetdisplay.com/
-cask install duet
+cask 'duet'
 
 #https://flexibits.com/fantastical
-cask install fantastical
+cask 'fantastical'
 
 #http://justgetflux.com/
-#cask install flux
+#cask 'flux'
 
 #http://gfx.io/
-#cask install gfxcardstatus
+#cask 'gfxcardstatus'
 
 #http://growl.info/downloads
-#cask install growlnotify
+#cask 'growlnotify'
 
 #http://www.knocktounlock.com/
-#cask install knock
+#cask 'knock'
 
 #http://marked2app.com/
-#cask install marked
+#cask 'marked'
 
 #http://www.irradiatedsoftware.com/sizeup/
-#cask install sizeup
+#cask 'sizeup'
 
 #http://www.eidac.de/
-#cask install smcfancontrol
+#cask 'smcfancontrol'
 
 #http://spectacleapp.com/
-cask install spectacle
+cask 'spectacle'
 
 #http://iconfactory.com/software/xscope
-#cask install xscope
+#cask 'xscope'
 
 
 #
@@ -169,16 +170,16 @@ cask install spectacle
 #
 
 #http://www.chromium.org/
-#cask install chromium
+#cask 'chromium'
 
 #http://www.mozilla.org/en-US/firefox/new/
-#cask install firefox
+#cask 'firefox'
 
 #https://www.google.com/intl/en/chrome/browser/canary.html
-#cask install google-chrome-canary
+#cask 'google-chrome-canary'
 
 #http://www.opera.com/
-#cask install opera
+#cask 'opera'
 
 
 #
@@ -186,62 +187,56 @@ cask install spectacle
 #
 
 #https://adium.im/
-#cask install adium
-
-#http://airmailapp.com/beta
-#cask install airmail-beta
+#cask 'adium'
 
 #http://www.airserver.com/
-#cask install airserver
+#cask 'airserver'
 
 #http://calibre-ebook.com/
-#cask install calibre
+#cask 'calibre'
 
 #http://www.mediaatelier.com/CheatSheet/
-#cask install cheatsheet
+#cask 'cheatsheet'
 
 #http://kapeli.com/dash
-#cask install dash
+#cask 'dash'
 
 #http://limechat.net/mac/
-#cask install limechat
+#cask 'limechat'
 
 #http://evernote.com/
-#cask install evernote
-
-#https://tools.google.com/dlpage/drive
-#cask install google-drive
+#cask 'evernote'
 
 #http://handbrake.fr/
-#cask install handbrake
+#cask 'handbrake'
 
 #http://inkscape.org/
-#cask install inkscape
+#cask 'inkscape'
 
 #http://www.libreoffice.org/
-#cask install libreoffice
+#cask 'libreoffice'
 
 #http://mailplaneapp.com/
-#cask install mailplane
+#cask 'mailplane'
 
 #http://mouapp.com/
-#cask install mou
+#cask 'mou'
 
 #http://www.bohemiancoding.com/sketch/
-cask install sketch
+cask 'sketch'
 
 #http://www.skype.com/en/
-#cask install skype
+#cask 'skype'
 
 #https://www.spotify.com/us/
-#cask install spotify
+#cask 'spotify'
 
 #http://www.utorrent.com/
-#cask install utorrent
+#cask 'utorrent'
 
 #https://playbeta.pocketcasts.com/
-cask install pocket-casts
+cask 'pocket-casts'
 
 #http://stellarium.org/
-cask install stellarium
+cask 'stellarium'
 

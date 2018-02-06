@@ -2,5 +2,5 @@
 # vcs
 #
 
-install git
-#install mercurial
+brew 'git'
+#brew 'mercurial'

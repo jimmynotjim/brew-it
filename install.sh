@@ -110,50 +110,8 @@ function review_brewfile() {
   done
 }
 
-function verify_formula() {
-  IFS=', ' read -a args <<< "$line"
-  cmd=${args[0]}
-  p=${args[1]}
-
-  if [ "$cmd" = "brew" ]; then
-    cmd=${args[1]}
-    p=${args[2]}
-  fi
-  if [ "$cmd" = "tap" ]; then
-    return 0
-  elif [ "$cmd" = "install" ]; then
-    brew info $p > /dev/null 2> /dev/null
-    return $?
-  elif [ "$cmd" = "cask" ]; then
-    cmd=${args[1]}
-    p=${args[2]}
-    if [ "$cmd" = "alfred" ]; then
-      return 0
-    else
-      brew cask info $p > /dev/null 2> /dev/null
-      return $?
-    fi
-  fi
-}
-
 function install_formulas() {
-  while read line;
-  do
-    line=${line%%#*}
-    if [ "$line" = "" ];then
-      continue
-    fi
-
-    verify_formula line
-    formula_exists=$?
-
-    if [ "$formula_exists" = 0 ]; then
-      brew ${line}
-    else
-      echo "package missing: $p"
-    fi
-  done < $HOME/.brewrc
-  echo "Installation is complete, enjoy your new machine!"
+  brew bundle --file=$HOME/.brewrc
 }
 
 

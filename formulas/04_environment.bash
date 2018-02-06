@@ -2,8 +2,8 @@
 # programming environment
 #
 
-#install apple-gcc42
-#install autoconf
-#install automake
-#install gettext
-#install intltool
+#brew 'apple-gcc42'
+#brew 'autoconf'
+#brew 'automake'
+#brew 'gettext'
+#brew 'intltool'
