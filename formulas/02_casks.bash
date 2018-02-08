@@ -176,7 +176,7 @@ cask 'spectacle'
 #cask 'firefox'
 
 #https://www.google.com/intl/en/chrome/browser/canary.html
-#cask 'google-chrome-canary'
+cask 'google-chrome-canary'
 
 #http://www.opera.com/
 #cask 'opera'

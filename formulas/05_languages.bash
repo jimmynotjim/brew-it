@@ -26,7 +26,7 @@
 # https://gist.github.com/shtirlic/4696903
 
 # node
-brew 'node'
+brew 'nvm'
 
 # ocaml
 #brew 'ocaml'
@@ -35,9 +35,8 @@ brew 'node'
 #brew 'python'
 
 # ruby
-#brew 'chruby'
+brew 'rbenv'
 
-#brew 'ruby-brew'
 
 # rust
 #brew 'rust'
